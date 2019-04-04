@@ -1,0 +1,45 @@
+Accounts:
+
+
+fred hutch
+    458818213009
+
+cortex-security
+    cortex-security
+    775606665510
+    CortexSecurityRole
+
+cortex-deployment
+    cortex-deployment
+    674262641866
+    CortexDeploymentRole
+
+cortex-sandbox
+    cortex-data-platform-sandbox (?)
+    209151293010
+    cortex-data-platform-sandboxAccessRole
+
+cortex-production
+    fredhutch-cortex-data-platform-production (?)
+    329997391649
+    fredhutch-cortex-data-platform-productionAccessRole
+    Also created role: arn:aws:iam::329997391649:role/admin-with-limited-network
+    
+
+fh_disable_network_modification policy
+
+
+verify that you can't change anything wrt networks
+
+can you create an "admin minus networking" account
+    use this policy together with an admin 
+
+test - add a vpc (delete if successful)    
+
+IAM simulator?
+
+test with primary role in cortex production and assume role 
+in one of the other accounts.
+
+    can you do admin minus networking in this scenario
+    

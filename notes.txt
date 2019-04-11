@@ -9,6 +9,11 @@ cortex-security
     775606665510
     CortexSecurityRole
 
+In the cortex security account, added a role: 
+arn:aws:iam::775606665510:role/transit-gw-testing
+This role can be assumed by the cortex-production account, and
+has Administrator + fh_disable_network_modification policies attached.
+
 cortex-deployment
     cortex-deployment
     674262641866
